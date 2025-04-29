@@ -43,7 +43,7 @@ function draw() {
       const m = map(a, -1, 1, 0, textSize());
       push();
       translate(m, textSize() * (j - rows / 2), 0);
-      text("::", 0, 0);
+      text(":::", 0, 0);
       pop();
     }
     pop();
